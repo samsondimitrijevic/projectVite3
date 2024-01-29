@@ -65,27 +65,27 @@ const experience= [
 const projects= [
   {
      "title": "React Project",
-     "image": "./images/google.jpg",
+     "image": "./images/project1.jpg",
      "weblink": "https://www.google.com"
   },
   {
     "title": "Vanilla Javascript Project",
-    "image": "./images/Apple.jpg",
+    "image": "./images/project2.jpg",
     "weblink": "https://www.apple.com"
  },
  {
   "title": "HTML/CSS Project",
-  "image": "./images/instagram.jpg",
+  "image": "./images/project3.jpg",
   "weblink": "https://www.instagram.com"
 },
 {
   "title": "Vue Project",
-  "image": "./images/LinkedIn.png",
+  "image": "./images/project4.jpg",
   "weblink": "https://www.linkedin.com"
 },
 {
   "title": "PHP Project",
-  "image": "./images/whatsapp.jpeg",
+  "image": "./images/project5.jpg",
   "weblink": "https://www.whatsapp.com"
 }
 ];
@@ -121,13 +121,13 @@ function renderHome(){
 
      const homeHTML= `
          <div class="homepage">
-             <div class="image"><img src='./images/WebDev.jpg' alt="image"/></div>
+             <div class="image"><img src='./images/My Picture_SD.jpg' alt="image"/></div>
              <div class="data">
                  <div><b></b> Samson.</div>
                  <div><b></b> Brand Designer & Webflow Developer</div>
                  <div><b></b> I help clients around the world create more engaging experiences through design, motion and Webflow.</div>
-                 <div><b></b> https://github.com/samsondimitrijevic</div>
-                 <div><b></b> Samson Dimitrijević | LinkedIn</div>
+                 <div><b></b> Open for new projects. Let's talk, it's time to tell your story!</div>
+                 <div><b></b> CreatorLed is a Venture Capital focused on connecting influencers and the creator economy. I designed their brand and website. </div>
              </div>
          </div>
      `
